@@ -7,7 +7,7 @@
     "clean:reports": "rm -R -f cypress/reports && mkdir cypress/reports && mkdir cypress/reports/mochareports",
     "pretest": "npm run clean:reports",
     "scripts": "cypress run",
-    "combine-reports": "mochawesome-merge --reportDir cypress/reports/mocha > cypress/reports/mochareports/report.json",
+    "combine-reports": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
     "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports",
     "posttest": "npm run combine-reports && npm run generate-report",
     "test": "npm run scripts || npm run posttest"
@@ -21,11 +21,11 @@
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^2.0.1",
     "cypress-file-upload": "^4.0.4",
-    "cypress-multi-reporters": "^1.2.3",
-    "mocha": "^6.2.2",
-    "mochawesome": "^4.1.0",
-    "mochawesome-merge": "^2.0.1",
-    "mochawesome-report-generator": "^4.0.1"
+    "cypress-multi-reporters": "^1.2.4",
+    "mocha": "^7.1.2",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^5.1.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
