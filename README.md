@@ -17,7 +17,6 @@ Tutorial available here: https://bit.ly/2n48zPJ
 2. Install dependencies by running the following command in terminal (from inside your app directory i.e. where package.json is located): <I><B>npm install </I></B>
 
 
-
-<B>» Other Courses:</B> </br>
-- JS for Testers: https://bit.ly/2Z9M0st </br>
-- Playwright: https://bit.ly/38B9Enu
+▬▬▬▬▬▬  Other courses  🚀  ▬▬▬▬▬▬ </br>
+<B>» JS for Testers: https://bit.ly/2Z9M0st </br>
+<B>» Playwright: https://bit.ly/38B9Enu
