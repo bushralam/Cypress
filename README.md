@@ -18,6 +18,6 @@ Tutorial available here: https://bit.ly/2n48zPJ
 
 
 
-<B>» Other Courses:</B>
-► JS for Testers: https://bit.ly/2Z9M0st
-► Playwright: https://bit.ly/38B9Enu
+<B>» Other Courses:</B> </br>
+- JS for Testers: https://bit.ly/2Z9M0st </br>
+- Playwright: https://bit.ly/38B9Enu
